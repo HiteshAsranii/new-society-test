@@ -12,22 +12,113 @@
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section>
+        <section id="mission">
             <h2>Our Mission</h2>
             <p>We aim to build a better community through collaboration and innovation.</p>
+            <p>Since our founding in 2023, we've been dedicated to creating positive change through sustainable practices and community engagement.</p>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>New Society was founded with a simple yet powerful vision: to create communities where people thrive together. Our approach combines innovative thinking with traditional values of cooperation and mutual support.</p>
+            <p>We believe that when people work together with shared purpose, there's no limit to what can be achieved.</p>
+        </section>
+
+        <section id="services">
+            <h2>Our Services</h2>
+            <div class="service-grid">
+                <div class="service-item">
+                    <h3>Community Building</h3>
+                    <p>Creating connections and fostering relationships within neighborhoods.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Sustainable Development</h3>
+                    <p>Implementing eco-friendly solutions for urban and rural environments.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Educational Programs</h3>
+                    <p>Workshops and training sessions focused on community leadership.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="team">
+            <h2>Our Team</h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    <h3>Jane Doe</h3>
+                    <p class="role">Executive Director</p>
+                    <p>With over 15 years of experience in community development.</p>
+                </div>
+                <div class="team-member">
+                    <h3>John Smith</h3>
+                    <p class="role">Program Manager</p>
+                    <p>Specializes in sustainable urban planning and community engagement.</p>
+                </div>
+                <div class="team-member">
+                    <h3>Lisa Johnson</h3>
+                    <p class="role">Outreach Coordinator</p>
+                    <p>Expert in building partnerships with local businesses and organizations.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials">
+            <h2>Testimonials</h2>
+            <div class="testimonial">
+                <blockquote>"New Society transformed how our neighborhood works together. Their workshops created lasting connections."</blockquote>
+                <p class="author">- Michael R., Community Member</p>
+            </div>
+            <div class="testimonial">
+                <blockquote>"The sustainable development program helped us implement green solutions that saved money and resources."</blockquote>
+                <p class="author">- Sarah T., Local Business Owner</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Have questions or want to get involved? Reach out to us!</p>
+            <div class="contact-info">
+                <p>Email: info@newsociety.org</p>
+                <p>Phone: (555) 123-4567</p>
+                <p>Address: 123 Community Ave, Anytown, ST 12345</p>
+            </div>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
         </section>
     </main>
 
     <footer>
         <p>&copy; 2025 New Society. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+            <a href="#">LinkedIn</a>
+        </div>
     </footer>
 </body>
 </html>
